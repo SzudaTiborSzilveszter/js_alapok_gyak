@@ -1,0 +1,31 @@
+aside{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+aside div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 30px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: pink;
+    padding: 5px;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table, td{
+    background-color: black;
+    color: white;
+    border: solid 1px gray;
+    padding: 5px;
+}
