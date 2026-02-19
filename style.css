@@ -19,13 +19,9 @@ aside div{
     text-align: center;
 }
 
-table{
-    border-collapse: collapse;
-}
-
-table, td{
-    background-color: black;
-    color: white;
-    border: solid 1px gray;
-    padding: 5px;
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
 }
